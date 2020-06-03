@@ -1,0 +1,122 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/home/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/mine/mine",
+			"style": {
+				"navigationBarTitleText": "心情日记",
+				"navigationBarBackgroundColor":"#0f82ff"
+			}
+		},
+		 {
+			"path": "pages/test/test",
+			"style": {}
+		}, {
+			"path": "pages/square/square/square",
+			"style": {
+				// "navigationStyle": "custom"
+				"navigationBarTitleText": "何以解忧"
+			}
+		}, {
+			"path": "pages/countdown/countdown/countdown",
+			"style": {
+				// "navigationBarTitleText": "倒计时",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/square/jieyou/jieyou",
+			"style": {}
+		}, {
+			"path": "pages/countdown/addDown/addDown",
+			"style": {
+				// "navigationBarTitleText": ""
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/countdown/pictureSquare/pictureSquare",
+			"style": {
+				"navigationStyle": "custom",
+				 "enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/index/makenote/makenote",
+            "style" : {
+				"navigationStyle": "custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/viewnote/viewnote",
+            "style" : {
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"navigationBarTitleText":""
+			}
+        }
+        ,{
+            "path" : "pages/index/comment/comment",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/mine/getMydiary/getMydiary",
+            "style" : {
+				"navigationBarTitleText":"我的日记"
+			}
+        }
+        ,{
+            "path" : "pages/book/book/book",
+            "style" : {
+				"navigationBarTitleText":"做书"
+			}
+        }
+        ,{
+            "path" : "pages/book/cover/cover",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "何以解忧",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/home/home",
+			"iconPath": "static/bar/home.png",
+			"selectedIconPath": "static/bar/home-sel.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/square/square/square",
+			"iconPath": "static/bar/square.png",
+			"selectedIconPath": "static/bar/square-sel.png",
+			"text": "何以解忧"
+		}, {
+			"pagePath": "pages/countdown/countdown/countdown",
+			"iconPath": "static/bar/countdown.png",
+			"selectedIconPath": "static/bar/countdown-sel.png",
+			"text": "倒计时"
+		},{
+			"pagePath": "pages/book/book/book",
+			"iconPath": "static/bar/book.png",
+			"selectedIconPath": "static/bar/book-sel.png",
+			"text": "做书"
+		}, {
+			"pagePath": "pages/mine/mine/mine",
+			"iconPath": "static/bar/mine.png",
+			"selectedIconPath": "static/bar/mine-sel.png",
+			"text": "我"
+		}]
+	}
+}

@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/index/home/home",
+    "pages/mine/mine/mine",
+    "pages/test/test",
+    "pages/square/square/square",
+    "pages/countdown/countdown/countdown",
+    "pages/square/jieyou/jieyou",
+    "pages/countdown/addDown/addDown",
+    "pages/countdown/pictureSquare/pictureSquare",
+    "pages/index/makenote/makenote",
+    "pages/index/viewnote/viewnote",
+    "pages/index/comment/comment",
+    "pages/mine/getMydiary/getMydiary",
+    "pages/book/book/book",
+    "pages/book/cover/cover"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "何以解忧",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#303133",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/home/home",
+        "iconPath": "static/bar/home.png",
+        "selectedIconPath": "static/bar/home-sel.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/square/square/square",
+        "iconPath": "static/bar/square.png",
+        "selectedIconPath": "static/bar/square-sel.png",
+        "text": "何以解忧"
+      },
+      {
+        "pagePath": "pages/countdown/countdown/countdown",
+        "iconPath": "static/bar/countdown.png",
+        "selectedIconPath": "static/bar/countdown-sel.png",
+        "text": "倒计时"
+      },
+      {
+        "pagePath": "pages/book/book/book",
+        "iconPath": "static/bar/book.png",
+        "selectedIconPath": "static/bar/book-sel.png",
+        "text": "做书"
+      },
+      {
+        "pagePath": "pages/mine/mine/mine",
+        "iconPath": "static/bar/mine.png",
+        "selectedIconPath": "static/bar/mine-sel.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap98.json"
+}

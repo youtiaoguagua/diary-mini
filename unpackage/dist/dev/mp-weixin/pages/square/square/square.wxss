@@ -1,0 +1,162 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page不能写带scope的style标签中，否则无效 */
+page {
+	background-color: rgb(240, 240, 240);
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.jieyou-warter.data-v-b5a393f4 {
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #FFFFFF;
+  padding: 8px;
+}
+.jieyou-image.data-v-b5a393f4 {
+  width: 100%;
+  border-radius: 4px;
+}
+.jieyou-title.data-v-b5a393f4 {
+  font-size: 30rpx;
+  margin-top: 5px;
+  color: #303133;
+}
+.jieyou-auth.data-v-b5a393f4 {
+  font-size: 22rpx;
+  color: #909399;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.avator.data-v-b5a393f4 {
+  width: 50rpx;
+  height: 50rpx;
+}
+.avator > image.data-v-b5a393f4 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.nickname.data-v-b5a393f4 {
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-left: 10rpx;
+}
+

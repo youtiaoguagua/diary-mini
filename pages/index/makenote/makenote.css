@@ -1,0 +1,55 @@
+.slot-wrap {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	padding-left: 20rpx;
+	display: flex;
+	font-size: 34rpx;
+	color:  #909399;
+}
+
+.slot-wrap>view{
+	margin-right: 42rpx;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.content-body {
+	flex: 1;
+	padding: 0 20rpx;
+}
+
+.title-input {
+	height: 35px;
+	border-bottom: 3rpx solid #000000;
+	font-size: 41rpx;
+	padding: 10rpx 0;
+	box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.html {
+	width: 100%;
+}
+
+.editor {
+	width: 100%;
+}
+
+.editor view {
+	box-sizing: border-box;
+}

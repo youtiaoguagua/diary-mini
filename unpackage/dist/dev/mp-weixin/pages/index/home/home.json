@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-fab": "/components/uni-fab/uni-fab",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

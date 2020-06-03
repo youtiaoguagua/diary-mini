@@ -1,0 +1,68 @@
+.content {
+	height: 100vh;
+}
+.content-title{
+	padding: 0 20rpx;
+	position: fixed;
+	top: 0;
+	background: #FFFFFF;
+	width: 100%;
+}
+.title{
+	font-size: 44rpx;
+	padding: 0 0 20rpx 0;
+	color: #303133;
+	font-weight: bold;
+}
+.update-time{
+	font-size: 26rpx;
+	color: #606266;
+	padding-bottom: 20rpx;
+}
+.content-body{
+	margin: 140rpx 0 100rpx 0;
+	padding: 0 20rpx;
+}
+.bootom-bar {
+	height: 90rpx;
+	position: fixed;
+	bottom: 0;
+	background: #ffffff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.bootom-bar>view{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	padding: 24rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 28rpx;
+	color: #606266;
+}
+.bootom-bar>view>text{
+	margin: 0 14rpx;
+}
+button::after{
+	border: 0 !important;
+}
+button{
+	background: #FFFFFF !important;
+	padding: 0;
+	margin: 0;
+	font-size: 28rpx;
+	color: #606266;
+	margin: 0 14rpx;
+}
+

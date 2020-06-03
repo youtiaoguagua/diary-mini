@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "做书",
+  "usingComponents": {
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper"
+  }
+}

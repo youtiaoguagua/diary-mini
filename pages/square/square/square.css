@@ -1,0 +1,39 @@
+.jieyou-warter {
+	border-radius: 8px;
+	margin: 5px;
+	background-color: #ffffff;
+	padding: 8px;
+}
+
+.jieyou-image {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.jieyou-content{
+	font-size: 28rpx;
+}
+
+.jieyou-author{
+	display: flex;
+	margin-top: 6rpx;
+}
+
+.auth-avatar{
+	display: flex;
+	align-items: center;
+}
+
+.auth-avatar>image{
+	height: 46rpx;
+	width: 46rpx;
+	border-radius: 50%;
+}
+
+.auth-nickname{
+	padding: 0 20rpx;
+	font-size: 25rpx;
+	display: flex;
+	align-items: center;
+	color: #909399;
+}

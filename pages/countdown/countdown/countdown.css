@@ -1,0 +1,151 @@
+page {
+
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.content{
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.content:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 0;
+}
+
+.nav-bar{
+	display: flex;
+	align-items: center;
+	padding: 0 24rpx;
+}
+
+.nav-bar>image{
+	width: 56rpx;
+	height: 56rpx;
+}
+
+
+.content-body{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
+	z-index: 2;
+}
+
+.content-top{
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+}
+
+.countdown-body{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+
+.content-bottom{
+	/* height: 50%; */
+}
+
+.countdown-number{
+	font-size: 120rpx;
+	font-family: TXihei, "华文细黑", 
+             serif;
+	font-style: italic;
+	font-weight: 900;
+	text-align: center;
+}
+
+.countdown-content{
+	font-size: 36rpx;
+	font-weight: bold;
+}
+
+.countdown-time{
+	font-size: 26rpx;
+	font-weight: 800;
+	margin: 20rpx 0; 
+}
+
+.scroll-view{
+	max-height: 54vh;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+
+}
+
+.scroll-view-item{
+	background: rgba(255,255,255,0.8);
+	margin: 20rpx 0;
+	border-radius: 28rpx;
+	padding: 10rpx 20rpx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.scroll-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.scroll-content>.title{
+	font-weight: 800;
+	font-size: 36rpx;
+}
+.scroll-content>.date{
+	font-weight: 800;
+	font-size: 22rpx;
+	color: #909399;
+}
+
+.scroll-number{
+	font-size: 84rpx;
+	color: #007AFF;
+	font-style: italic;
+	margin-right: 14rpx;
+}
+
+
+
+
+
+
+
+
+.fab-circle-v,
+.fab-circle-h {
+	background: #000000 !important;
+}
+
+.fab-circle-h {
+	width: 24px !important;
+	left: 15px !important;
+	height: 2px !important;
+}
+
+.fab-circle-v {
+	height: 24px !important;
+	top: 15px !important;
+	width: 2px !important;
+}
