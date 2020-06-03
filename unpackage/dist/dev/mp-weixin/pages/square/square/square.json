@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "何以解忧",
-  "usingComponents": {
-    "u-waterfall": "/uview-ui/components/u-waterfall/u-waterfall",
-    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
-    "square-u-waterfall-left": "/pages/square/square/square-u-waterfall-left",
-    "square-u-waterfall-right": "/pages/square/square/square-u-waterfall-right"
-  }
-}

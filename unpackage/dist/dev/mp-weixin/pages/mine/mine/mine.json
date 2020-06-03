@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "心情日记",
-  "navigationBarBackgroundColor": "#0f82ff",
-  "usingComponents": {
-    "u-icon": "/uview-ui/components/u-icon/u-icon",
-    "u-popup": "/uview-ui/components/u-popup/u-popup"
-  }
-}

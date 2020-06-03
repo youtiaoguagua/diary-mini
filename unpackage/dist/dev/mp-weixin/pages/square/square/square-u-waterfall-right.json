@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "square-u-waterfall-left": "/pages/square/square/square-u-waterfall-left",
-    "square-u-waterfall-right": "/pages/square/square/square-u-waterfall-right"
-  }
-}
